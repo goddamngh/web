@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  color: gray;
+  line-height: 1;
+}
+form {
+  border: 1px solid black;
+}
+h1, p{
+    font-weight: normal;
+    margin: 3%;
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0%;
+}
+.styled-table td, 
+.styled-table th {
+  border: 1px solid black;
+  padding: 8px;
+}
