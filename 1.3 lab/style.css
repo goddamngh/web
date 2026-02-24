@@ -27,3 +27,13 @@ h1, p{
   border: 1px solid black;
   padding: 8px;
 }
+
+a{
+  font-size: 20px;
+  color: darkred;
+  text-decoration: none;
+}
+
+nav{
+  text-align: center;
+}
