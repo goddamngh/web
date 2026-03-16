@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел — Лабораторная работа</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <div class="todo-wrapper"> 
+            
+            <header class="header-composite">
+                <img src="https://i.pinimg.com/736x/67/88/df/6788dffee1c41f89971747d53d1ac000.jpg" alt="logo">
+                <h1>Список дел</h1>
+            </header>
+
+            <section class="input-section">
+                <input type="text" placeholder="Новый элемент списка...">
+                <div class="btn-group">
+                    <button class="btn-add">Создать</button>
+                    <button class="btn-clear">Очистить всё</button>
+                </div>
+            </section>
+
+            <ul class="todo-list">
+                <li class="todo-item done">
+                    <span class="icon-check">✔</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Выяснить, как называют четвертьфунтовый чизбургер в Париже</span>
+                        <span class="todo-date">16 марта, 10:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Обсудить массаж ступней: это интимный жест или просто вежливость?</span>
+                        <span class="todo-date">16 марта, 11:30</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Уволить повара-каламбуриста, потому что его шутки — это просто «переборщ»</span>
+                        <span class="todo-date">16 марта, 12:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item done">
+                    <span class="icon-check">✔</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Стереть отпечатки с чемодана (код 666 всё еще работает)</span>
+                        <span class="todo-date">16 марта, 13:45</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Купить чертовски хороший молочный коктейль за пять баксов (без алкоголя!)</span>
+                        <span class="todo-date">16 марта, 15:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Зайти в магазин «Электрик»: там всегда шокирующие цены и напряженная атмосфера</span>
+                        <span class="todo-date">16 марта, 16:20</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Стать «Мистером Розовым», потому что «Мистер Блондин» звучит слишком вызывающе</span>
+                        <span class="todo-date">16 марта, 17:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item done">
+                    <span class="icon-check">✔</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Допросить свидетеля: он был так напуган, что буквально потерял дар речи (и кошелек)</span>
+                        <span class="todo-date">16 марта, 18:30</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Не доверять стоматологам: они постоянно смотрят в рот и зубы заговаривают</span>
+                        <span class="todo-date">16 марта, 19:15</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Послушать K-Billy и их супер-хиты семидесятых в ожидании мистера Вульфа</span>
+                        <span class="todo-date">16 марта, 20:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Найти Зеда. Сказать ему, что Зед мертв, детка. Зед мертв.</span>
+                        <span class="todo-date">17 марта, 00:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item done">
+                    <span class="icon-check">✔</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Пойти на курсы анонимных кулинаров: «Меня зовут Винсент и я подсел на соль»</span>
+                        <span class="todo-date">17 марта, 09:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Объяснить Бутчу, что часы его отца — это не просто семейная реликвия, это вызов</span>
+                        <span class="todo-date">17 марта, 11:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Никогда не спорить с парикмахером: у него всегда есть острые аргументы под рукой</span>
+                        <span class="todo-date">17 марта, 13:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+
+                <li class="todo-item">
+                    <span class="icon-check">○</span> 
+                    <div class="todo-content">
+                        <span class="todo-text">Процитировать пророка Иезекииля 25:17 перед тем, как очистить весь список дел</span>
+                        <span class="todo-date">17 марта, 15:00</span>
+                    </div>
+                    <span class="icon-delete">✖</span>
+                </li>
+            </ul>
+            
+            <p class="empty-list-msg">Не найдено ни одного дела</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Лабораторная работа по Web</p>
+        </footer>
+    </div>
+</body>
+</html>
