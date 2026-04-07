@@ -1,0 +1,43 @@
+@import "btn.css";
+@import "header.css";
+@import "about-us.css";
+@import "popular-routs.css";
+@import "the-best-tours.css";
+@import "comments.css";
+@import "contacts.css";
+@import "footer.css";
+
+:root {
+    --btn-default-color: #425736;
+    --hover-btn-color: #2d4320;
+    --text-default-color: #dbe4db;
+    --hover-text-color: #27371f;
+    --main-font: "Tiny5", sans-serif;
+    --back-color1: #495f3c;
+    --back-color2: #577148;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+html {
+    font-size: 14px; 
+    scroll-behavior: smooth;
+}
+
+.default-h2 {
+    font-size: 2rem;
+    color: var(--text-default-color);
+    margin-bottom: 2rem;
+}
+
+.default-h3 {
+    font-size: 1.5rem;
+    color: var(--text-default-color);
+    margin: 1rem;
+}
+

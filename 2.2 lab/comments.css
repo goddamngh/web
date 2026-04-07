@@ -1,0 +1,39 @@
+.comments {
+    padding: 4rem 2rem;
+    background-color: var(--back-color1);
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.comments-container p {
+    color: var(--text-default-color);
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+.comment-card {
+    background-color: var(--back-color2);
+    padding: 2rem;
+    font-style: italic;
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.comment-author, .comment-tour {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--hover-text-color);
+}

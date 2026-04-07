@@ -1,0 +1,26 @@
+.contacts {
+    padding: 4rem 2rem;
+    background-color: var(--back-color2);
+    color: var(--text-default-color);
+    text-align: center;
+}
+
+.contacts-content p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: var(--back-color2);
+    padding-bottom: 2rem;
+}
+
+footer hr {
+    border: 0;
+    height: 2px;
+    background: var(--back-color1);
+    width: 100%;
+    margin: 0 auto;
+}
+
+

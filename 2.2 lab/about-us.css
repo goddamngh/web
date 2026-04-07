@@ -1,0 +1,38 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--back-color2);
+    color: var(--text-default-color);
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10rem;
+}
+
+.about-us-composite {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-us-composite img {
+    width: 22rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+.about-us-composite-left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-composite p {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    max-width: 40rem;
+    text-align: justify;
+    width: 40rem;
+}
+
