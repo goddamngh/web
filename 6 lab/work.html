@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Массивы в JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Массивы в JavaScript</h1>
+    
+    <hr>
+    <h2>Задача 1</h2>
+    
+    <p>1.1 Найти максимальную разницу</p>
+    <input type="text" id="arr1" value="10,5,20,8,15">
+    <button onclick="task1()">Найти</button>
+    <input type="text" id="res1" readonly placeholder="результат">
+    
+    <p>1.2 Убрать дубликаты</p>
+    <input type="text" id="arr2" value="1,2,2,3,4,4,5,1,6">
+    <button onclick="task2()">Убрать</button>
+    <input type="text" id="res2" readonly placeholder="результат">
+    
+    <p>1.3 Взять только isDone: true</p>
+    <button onclick="task3()">Фильтр</button>
+    <input type="text" id="res3" readonly placeholder="результат">
+    
+    <hr>
+    <h2>Задача 2</h2>
+    
+    <p>2.1 Числа больше порога</p>
+    <input type="text" id="arr3" value="1,4,6,3,2">
+    <input type="text" id="threshold" value="2" size="3">
+    <button onclick="task4()">Найти</button>
+    <input type="text" id="res4" readonly placeholder="результат">
+    
+    <p>2.2 Выпрямить массив</p>
+    <input type="text" id="arr4" value="[1, 4, [34, 1, 20], [6, [6, 12, 8], 6]]">
+    <button onclick="task5()">Выпрямить</button>
+    <input type="text" id="res5" readonly placeholder="результат">
+    
+    <hr>
+    <h2>Задача 3</h2>
+    
+    <p>3.1 Количество пар с суммой 0</p>
+    <input type="text" id="arr5" value="-7,12,4,6,-4,-12,0">
+    <button onclick="task6()">Найти пары</button>
+    <input type="text" id="res6" readonly placeholder="результат">
+    
+    <p>3.2 Количество троек с суммой 0</p>
+    <button onclick="task7()">Найти тройки</button>
+    <input type="text" id="res7" readonly placeholder="результат">
+    
+    <script src="supercode.js"></script>
+</body>
+</html>

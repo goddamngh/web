@@ -1,0 +1,13 @@
+* {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+body {
+    
+    margin: 20px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
