@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба: Таймеры, Промисы, Async/Await</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="task-block">
+            <h3>Задача 1.1: counter(n) - простой счётчик</h3>
+            <input type="number" id="counterInput" value="5" min="0">
+            <button onclick="runSimpleCounter()">Запустить counter()</button>
+            <div class="output" id="simpleCounterOutput"></div>
+        </div>
+
+        <div class="task-block">
+            <h3>Задача 1.2: createCounter(n) - с управлением</h3>
+            <input type="number" id="createCounterInput" value="10" min="0">
+            <button onclick="initCounter()">Создать счётчик</button>
+            <div style="margin-top: 10px;">
+                <button id="startCounterBtn" disabled onclick="startCounter()">START</button>
+                <button id="pauseCounterBtn" disabled onclick="pauseCounter()">PAUSE</button>
+                <button id="stopCounterBtn" disabled onclick="stopCounter()">STOP</button>
+            </div>
+            <div class="output" id="advancedCounterOutput">Счётчик не создан</div>
+        </div>
+
+        <div class="task-block">
+            <h3>Задача 2: Промисы</h3>
+            <button onclick="runDelayPromise()">delay(3) пример</button>
+            <button onclick="runCounterWithDelay()">Счётчик через delay()</button>
+            <button onclick="getFirstRepo()">Показать первый репозиторий</button>
+            <div class="output" id="promiseOutput">Готов</div>
+        </div>
+
+        <div class="task-block">
+            <h3>Задача 3: async/await</h3>
+            <button onclick="runAsyncGithubUser()">Найти пользователя GitHub</button>
+            <div class="output" id="asyncOutput">Нажми кнопку</div>
+        </div>
+    </div>
+
+    <script src="supercode.js"></script>
+</body>
+</html>
